@@ -64,7 +64,7 @@
     }
 */
 
-    $action = filter_input(INPUT_POST, 'action') ?? filter_input(INPUT_GET, 'action') ?? 'list_vehicles';
+    $action = filter_input(INPUT_POST, 'action') ?? filter_input(INPUT_GET, 'action') ?? 'list_quotes';
     //if ($action == NULL) {
       //  $action = filter_input(INPUT_GET, 'action');
        // if ($action == NULL) {

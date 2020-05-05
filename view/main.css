@@ -1,0 +1,263 @@
+/* the styles for the html elements */
+html {
+    background-color: rgb(192, 192, 192);
+}
+body {
+    margin-top: 0;
+    font-family: Arial, Helvetica, sans-serif;
+   
+    margin: 0 auto;
+    background-color: lightblue;
+    border: 1px solid black;
+    padding: .5em 2em;
+}
+header {
+    margin: 0;
+    border-bottom: 2px solid black;
+}
+
+#login_status {
+    text-align:right;
+}
+
+#sort-inline {
+    display: inline-flex;
+    
+}
+
+#sort-selection {
+    margin: 0em;
+    
+}
+
+#select-year {
+    margin:0em;
+}
+
+
+header h1 {
+    margin: 0;
+    padding: .5em 0;
+    color: black;
+}
+main {
+    margin: 0;
+}
+aside {
+    float: left;
+    width: 150px;
+}
+nav ul {
+    list-style-type: none;
+    margin-left: 0;
+    padding-left: 0;
+}
+nav ul li {
+    padding-bottom: 0.5em;
+}
+section {
+    float: left;
+    
+    padding-bottom: 1.5em;
+}
+footer {
+    clear: both;
+    margin-top: 1em;
+    border-top: 2px solid black;
+}
+footer p {
+    text-align: right;
+    font-size: 80%;
+    margin: 1em 0;
+}
+h1 {
+    font-size: 150%;
+    margin: 0;
+    padding: .5em 0 .25em;
+}
+h2 {
+    font-size: 120%;
+    margin: 0;
+    padding: .25em 0 .5em;
+}
+h1,h2 {
+    color: rgb(0,0,255);
+}
+
+p {font-size: 1.2em;}
+
+ul {
+    margin: 0 0 1em 0;
+    padding: 0 0 0 2.5em;
+}
+li {
+    margin: 0;
+    padding: 0;
+}
+a {
+    color: rgb(41, 64, 124);
+    font-weight: bold;
+    box-shadow: 2px 2px black;
+    
+}
+a:hover {
+    color: lightblue;
+    padding:.4em;
+}
+#button:hover {
+    color: lightblue;
+    padding:.62em;
+        
+}
+
+#button_delete:hover {
+    color: lightblue;
+    padding: .4em;
+}
+
+table {
+    border: 10px solid blue;
+    border-radius: 1em;
+    box-shadow: 2px 2px black;
+}
+td, th {
+    border: 1px solid black;
+    padding: .2em .5em .2em .5em;
+    vertical-align: top;
+    text-align: left;
+}
+
+tr:nth-of-type(odd) { background-color: #D1D1D1; }
+thead:first-of-type {background-color:#D1D1D1;}
+
+form {
+    margin: 0;
+}
+br {
+    clear: left;
+}
+
+input {
+    margin:.5em;
+    text-align: center;
+    font-size:1em;
+}
+
+select {margin:.5em;
+        font-size: 1.2em;
+        }
+
+label {margin:1em;
+        font-size: 1.2em;
+        }
+
+
+a {margin: 1em;
+    background-color:rgb(0, 0, 192);
+    color:white;
+    border-radius: 10px;
+    padding: 5px;
+    padding-left: .7em;
+    padding-right: .7em;
+    text-decoration: none;
+    text-shadow: 1px 1px gray;
+    }
+h2 {text-align: center;}
+/* the styles for classes */
+.right {
+    text-align: right;
+}
+.last_paragraph {
+	margin-bottom: 2em;	
+}
+
+
+
+#button {background-color: rgb(0, 0, 192);
+    color:white;
+    border-radius: 15px;
+    padding:.5em;
+    text-shadow: 1px 1px gray;
+    padding-left:.7em;
+    padding-right: .7em;
+    }
+
+#button_delete {background-color: rgb(255, 0, 0);
+    color:white;
+    border-radius: 10px;
+    padding:5px;
+    text-shadow: 1px 1px gray}
+
+
+#plain {
+        margin: 0em;
+        background-color: none; 
+        color: black; 
+        border-radius: 0px;
+        padding: 0px;
+        padding-left: 0em;
+        padding-right: 0em;
+        text-decoration: none;
+        text-shadow: none;
+        color: black;
+        font-weight: bold;
+        box-shadow: none;
+        text-decoration: underline;
+        background-color: lightblue;
+        }
+   
+/********************************************************************
+* Additional styles for the Product Manager application
+********************************************************************/
+#add_product_form {
+    margin: .5em 0 1em;
+}
+#add_product_form label {
+    width: 6em;
+    padding-right: 1em;
+    padding-bottom: .5em;
+    float: left;
+}
+#add_product_form input {
+    float: left;
+}
+#add_product_form input[text] {
+    width: 15em;
+}
+
+@media only screen and (max-width: 37.5em) {
+
+    #container_background {padding:0em;
+                box-shadow: none;
+                }
+
+    table {
+    
+    border: 5px solid blue;
+    width:100%;
+    margin:.5em;
+    
+    }
+
+    body {
+        padding: .5em;
+    }
+    
+    select {font-size: 1em;}
+
+    #table-scroll {
+        overflow-x:auto;
+    }
+
+    select {
+        width: 100%;
+        margin-left:5px;
+        margin-right:5px;
+    }
+
+    #mobile_add_vehicle {
+        width:50%;
+
+    }
+    
+}

@@ -1,5 +1,5 @@
 <?php include('view/header_customer_view.php');
-require_once('util/valid_admin.php');
+//require_once('util/valid_admin.php');
 
 ?>
 
